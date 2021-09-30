@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'bebas_neue_probold';
+    src: url('fonts/BebasNeuePro-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neue_probook';
+    src: url('fonts/BebasNeuePro-Book.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neue_prothin';
+    src: url('fonts/BebasNeuePro-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans_light';
+    src: url('fonts/OpenSans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_medium';
+    src: url('fonts/Roboto-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_lightitalic';
+    src: url('fonts/Roboto-LightItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    background-image: url('../images/navbar-image.svg');
+    background-position: -9px -6px;
+    background-repeat: no-repeat;
+    padding: 0.3% 5%;
+    width: 100%;
+    z-index: 100;
+    max-height: 10%;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    display: inline-block;
+}
+
+.logopic {
+    width: 30%;
+}
+
+.logopic:hover {
+    position: relative;
+    right: 50px;
+}
+
+.lab {
+    margin-left: -30%;
+    font-family: 'bebas_neue_probold';
+    font-size: 48px;
+    letter-spacing: 0.015em;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .lab span {
+    color: black;
+  }
+
+  .name {
+    text-decoration: none;
+    font-family: 'bebas_neue_probook';
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    color: white;
+  }
+.name:hover {
+    font-family: 'bebas_neue_probold';
+}
+
+  .group {
+    text-decoration: none;
+    font-family: 'bebas_neue_probook';
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    color: white;
+  }
+.group:hover {
+    font-family: 'bebas_neue_probold';
+}
+
+  .variant {
+    margin-left: -20%;
+    text-decoration: none;
+    font-family: 'bebas_neue_probook';
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    color: white;
+  }
+.variant:hover {
+    font-family: 'bebas_neue_probold';
+}
+
+  .sectionmain {
+      position: relative;
+      top: 100px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 20%;
+    }
+  .content {
+      margin-left: -150px;
+  }
+
+  .tablediv {
+      flex-basis: 800px;
+      margin-right: -50px;
+      position: sticky;
+      display: block;
+      margin-top: 0;
+  }
+    .table {
+        text-decoration: none;
+        font-family: 'bebas_neue_probook';
+        letter-spacing: 0.1em;
+        font-size: 20px;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+    th,td {
+        border: 1px solid black;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .narrowColumn {
+        width: 50px;
+    }
+
+    .normalColumn {
+        width: 200px;
+    }
+
+    tr:first-child {
+        background-image: url('../images/navbar-image.svg');
+        background-position: -9px -6px;
+        background-repeat: no-repeat;
+        height: 50px;
+    }
+
+
+    button {
+        transition: all 0.3s ease;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .form_button {
+        width: 210px;
+        height: 70px;
+        font-size: 36px;
+        font-family: 'bebas_neue_probold';
+        color: white;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-image: url('../images/navbar-image.svg');
+        background-position: -9px -6px;
+        background-repeat: no-repeat;
+        border: 0;
+        padding: 15px 15px;
+    }
+
+    .form_button:hover {
+        color: black;
+    }
+    #clear {
+        position: relative;
+        right: -20px;
+    }
+
+    .form_offer {
+        font-size: 30px;
+        font-family: 'bebas_neue_probook';
+        color: black;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .inputfield {
+        position: relative;
+        right: -30px;
+        font-family: 'bebas_neue_probook';
+        font-size: 20px;
+    }
+
+    .x_check:hover {
+        cursor: pointer;
+    }
+
+    #r::placeholder {
+        text-align: center;
+    }
+    #y::placeholder {
+        text-align: center;
+    }
+
+    #r {
+        text-align: center;
+    }
+    #y {
+        text-align: center;
+    }

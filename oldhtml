@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Германа - тестовая версия</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+      <!--<img class="navback-background" src="images/navbar-image.svg" alt="">-->
+      <a class="logo" href="index.html">Сайт<span>Германа</span></a>
+      <img class="navbar-dots" src="/images/navbar-dots2.svg" alt="">
+      <nav>
+          <ul class="primary-nav">
+              <li><a href="#">Идея</a></li> <!--changes here-->
+              <li><a href="#">Репетиторство</a></li>
+              <li><a href="#">Обо мне</a></li>
+          </ul>
+      </nav>
+
+      <a class="contact" href="#"><button>Связь</button></a>
+  </header> 
+
+  <section class="hero">
+     <div class="container">
+        <div class="hero-text">
+          <p>Тестовый сайт<br>Германа Дагиля<br></p>
+        </div>
+        <div class="itmo-university">
+          <img class="itmo-university" src="images/itmo-university2.png" alt="itmo-university hero-picture">
+        </div>
+
+        <div class="triangles">
+          <img src="/images/triangle1.svg" alt="" class="triangle1">
+          <img src="/images/triangle2.svg" alt="" class="triangle2">
+          <img src="/images/triangle3.svg" alt="" class="triangle3">
+        </div>
+    </div>
+  </section>
+
+  <section class="idea">
+    <div id="div-left-side-triangle-thing">
+      <img src="/images/left-side-triangle-thing.svg" alt="" class="left-side-triangle-thing">
+    </div>
+    
+    <div id="div-idea-header">
+      <p class="idea-header">Идея создания сайта</p>
+    </div>
+
+    <div id="div-idea-text">
+      <ul class="idea-text">
+        <li>Практика в дизайне</li>
+        <li>Хранение портфолио</li>
+        <li>Мой дом в интернете</li>
+        <li>Площадка собственного креатива</li>
+        <li>Распространение услуг репетиторства</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section class="tutor">
+    <div id="div-tutor-header">
+      <p class="tutor-header">Репетиторство</p>
+    </div>
+
+    <div class="tutor-container">
+      <ul>
+        <li class="left-review">
+            <p class="name">Анна</p>
+            <p class="language">Python</p>
+            <p class="review">«Плюсы: пунктуален, доступно объясняет, нацелен на результат. Интеллектуальный, приятный в общении. Сыну очень понравилось заниматься»</p> 
+            <p class="source">источник: profi.ru</p>
+          </li>
+
+        <li class="mid-review">
+          <p class="name">Людмила</p>
+          <p class="language">Pascal</p>
+          <p class="review">«Всё устроило. Ребёнок остался доволен. Сказал, что всё понятно. Рекомендую!</p>
+          <p class="source">источник: profi.ru</p>
+        </li>
+
+        <li class="right-review">
+          <p class="name">Наталья</p>
+          <p class="language">C</p>
+          <p class="review">«Вежливый, терпеливый, может объяснить повторно, если нужно, легко находит общий язык с учеником, отзывчивый»</p>
+          <p class="source">источник: profi.ru</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="aboutme">
+    <div class="div-aboutme-header">
+      <p class="aboutme-header">Обо мне</p>
+    </div>
+
+    
+  </section>
+
+</body>
+</html>

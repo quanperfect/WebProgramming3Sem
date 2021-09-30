@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'bebas_neue_probold';
+  src: url("fonts/BebasNeuePro-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bebas_neue_probook';
+  src: url("fonts/BebasNeuePro-Book.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bebas_neue_prothin';
+  src: url("fonts/BebasNeuePro-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opensans_light';
+  src: url("fonts/OpenSans-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_medium';
+  src: url("fonts/Roboto-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_lightitalic';
+  src: url("fonts/Roboto-LightItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+
+.navbar-dots {
+  height: 3em;
+  position: relative;
+  right: -50px;
+}
+
+header {
+  background-image: url("../images/navbar-image3.svg");
+  background-position: relative;
+  background-position: -9px -6px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3% 5%;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  overflow: hidden;
+}
+
+.logo {
+  font-family: 'bebas_neue_probold';
+  font-size: 48px;
+  letter-spacing: 0.015em;
+  text-decoration: none;
+  color: white;
+}
+
+.logo span {
+  color: black;
+}
+
+.primary-nav {
+  list-style: none;
+  padding: 0 0 0 400px;
+}
+
+.primary-nav li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.primary-nav li a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  font-family: 'bebas_neue_probook';
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  color: white;
+}
+
+button {
+  padding: 0 28px;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 0.020em;
+  font-family: 'bebas_neue_probold';
+}
+
+section.hero {
+  background-image: url("../images/hero-background6.svg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+  border: 0;
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  font-family: 'bebas_neue_probook';
+  font-size: 50px;
+  letter-spacing: 0.12em;
+}
+
+.itmo-university {
+  position: relative;
+  top: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.triangle1 {
+  position: relative;
+  top: 0px;
+  right: -700px;
+  display: block;
+  margin: 0 auto;
+}
+
+.triangle2 {
+  position: relative;
+  top: -1000px;
+  right: -700px;
+  display: block;
+  margin: 0 auto;
+}
+
+.triangle3 {
+  position: relative;
+  top: -1300px;
+  left: -700px;
+  display: block;
+  margin: 0 auto;
+}
+
+#div-left-side-triangle-thing {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  top: -310px;
+}
+
+section.idea {
+  background-image: url("/images/idea-background.svg");
+  background-repeat: no-repeat;
+  height: 557px;
+  width: 100%;
+  position: relative;
+  top: -400px;
+}
+
+section.idea #div-idea-header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  top: -420px;
+  left: 130px;
+  display: inline-block;
+}
+
+section.idea #div-idea-header .idea-header {
+  display: inline-block;
+  color: #FFFFFF;
+  text-shadow: 3px 5px 6px #2F9E79;
+  text-transform: uppercase;
+  font-family: 'bebas_neue_probold';
+  font-size: 50px;
+  letter-spacing: 0.16em;
+}
+
+section.idea #div-idea-text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  top: -70px;
+  left: 15%;
+  display: inline-block;
+}
+
+section.idea #div-idea-text .idea-text {
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  font-family: 'opensans_light';
+  color: #FFFFFF;
+  list-style-type: none;
+  text-align: right;
+  line-height: 63px;
+}
+
+section.tutor {
+  background-image: url("/images/tutor2-background.svg");
+  background-repeat: no-repeat;
+  height: 1325px;
+  width: 100%;
+  position: relative;
+  top: -400px;
+}
+
+section.tutor #div-tutor-header {
+  margin: auto;
+  position: relative;
+  top: 150px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+section.tutor #div-tutor-header .tutor-header {
+  display: inline-block;
+  color: #000000;
+  text-shadow: 3px 5px 6px #2F9E79;
+  text-transform: uppercase;
+  font-family: 'bebas_neue_probold';
+  font-size: 65px;
+  letter-spacing: 0.25em;
+}
+
+section.tutor .tutor-container {
+  width: 100%;
+  height: 94.4%;
+  display: inline-block;
+}
+
+section.tutor .tutor-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 300px 15% 0 15%;
+  list-style: none;
+}
+
+section.tutor .tutor-container ul li {
+  text-align: center;
+  display: inline-block;
+  width: 396px;
+  height: 715px;
+}
+
+section.tutor .tutor-container ul .name {
+  margin: 15% auto 0 auto;
+  font-family: 'bebas_neue_probold';
+  font-size: 65px;
+}
+
+section.tutor .tutor-container ul .language {
+  margin: 10% 55% 0% 0%;
+  text-transform: uppercase;
+  color: #20272E;
+  border-color: #2E2525;
+  border-radius: 0.5;
+  font-family: 'bebas_neue_probold';
+  font-size: 45px;
+}
+
+section.tutor .tutor-container ul .review {
+  text-align: right;
+  margin: 10% 15% 0% 15%;
+  font-family: 'roboto_lightitalic';
+  font-size: 25px;
+  max-height: 250px;
+  line-height: 25px;
+}
+
+section.tutor .tutor-container ul .source {
+  text-align: left;
+  font-family: 'bebas_neue_prothin';
+  margin: 10% 15% 0% 15%;
+  font-size: 1.5em;
+}
+
+section.tutor .tutor-container ul li.left-review {
+  background-image: url("/images/anna-review.png");
+  color: white;
+}
+
+section.tutor .tutor-container ul li.mid-review {
+  background-image: url("/images/ludmila-review.png");
+  color: white;
+}
+
+section.tutor .tutor-container ul li.right-review {
+  background-image: url("/images/natalia2-review.png");
+  color: white;
+}
+
+section.aboutme {
+  background-image: url("/images/aboutme2-background.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  top: -400px;
+  height: 1517px;
+  width: 100%;
+}
+
+section.aboutme .div-aboutme-header {
+  display: inline-block;
+  position: relative;
+  top: 350px;
+  left: 350px;
+}
+
+section.aboutme .div-aboutme-header .aboutme-header {
+  display: inline-block;
+  color: #FFFFFF;
+  text-shadow: 3px 5px 6px #2F9E79;
+  text-transform: uppercase;
+  font-family: 'bebas_neue_probold';
+  font-size: 50px;
+  letter-spacing: 0.16em;
+}
+/*# sourceMappingURL=main.css.map */
